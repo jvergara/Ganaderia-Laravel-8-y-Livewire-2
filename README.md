@@ -63,5 +63,7 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-## Comandos utiles GitHub
-git clone
+## Comandos para clonar el repositorio GitHub
+1. Abra Git Bash
+2. Cambiar el directorio de trabajo
+3. Escriba git clone https://github.com/jvergara/Ganaderia-Laravel-8-y-Livewire-2.git
