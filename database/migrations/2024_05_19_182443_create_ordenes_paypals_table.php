@@ -21,7 +21,8 @@ class CreateOrdenesPaypalsTable extends Migration
             $table->string('nombre', 64);
             $table->string('correo', 128);
             $table->string('id_captura', 128);
-            $table->string('monto', 128);
+            /* $table->string('monto', 128); */
+            $table->float('monto', 8, 2);
             $table->string('country_code', 10);
             $table->string('paypal_request', 64);
             $table->unsignedBigInteger('estado')->default(1);
