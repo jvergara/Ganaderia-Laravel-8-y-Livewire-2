@@ -21,6 +21,4 @@ Route::resource('posts', PostController::class)->except('show')->names('admin.po
 
 Route::resource('roles', RoleController::class)->names('admin.roles');
 
-/* Route::get('transactions', [PaypalController::class, 'transactions_paypal'])->name('admin.transactions_paypal'); */
-
 Route::resource('transactions', PaypalController::class)->names('admin.transactions');
